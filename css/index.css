@@ -1,0 +1,123 @@
+@font-face {
+  font-family: 'MuseoSans-300';
+  src: url("../fonts/MuseoSans-300.woff2") format("woff2"), url("../fonts/MuseoSans-300.woff") format("woff"), url("../fonts/MuseoSans-300.ttf") format("truetype"), url("../fonts/MuseoSans-300.svg#MuseoSans-300") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: "Neucha", serif; }
+
+.intro {
+  background: #F6F6F6; }
+  .intro__inner {
+    width: 1250px;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 105px; }
+    .intro__inner:after {
+      display: table;
+      clear: both;
+      content: ""; }
+  .intro__content {
+    margin-top: 140px; }
+  .intro__img {
+    float: left;
+    margin-right: 130px; }
+  .intro__text-question, .dialogue__text-question {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 14px;
+    letter-spacing: 0.2px; }
+    .intro__text-question_2 {
+      margin-top: 70px; }
+  .intro__text-answer, .dialogue__text-answer {
+    font-size: 18px;
+    letter-spacing: 0.2px;
+    line-height: 25px;
+    padding-right: 40px; }
+
+.title {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 100;
+  letter-spacing: 5px; }
+  .title__span {
+    font-size: 25px; }
+
+.dialogue__inner {
+  width: 1250px;
+  margin: 0 auto;
+  padding-top: 80px; }
+
+.dialogue__img1 {
+  float: left;
+  margin-right: 20px;
+  border: 5px solid white;
+  box-shadow: 0 0 5px lightgrey; }
+
+.dialogue__img2 {
+  margin-top: 70px;
+  float: right;
+  margin-left: 20px;
+  border: 5px solid white;
+  box-shadow: 0 0 5px lightgrey; }
+
+.dialogue__content {
+  margin-top: 40px; }
+  .dialogue__content:after {
+    display: table;
+    clear: both;
+    content: ''; }
+
+.dialogue__text-question_2 {
+  margin-top: 25px; }
+
+.dialogue__text-question_3 {
+  margin-top: 65px; }
+
+.dialogue__text-question_4 {
+  margin-top: 250px; }
+
+.dialogue__text-question_5 {
+  margin-top: 50px; }
+
+.dialogue__text-answer {
+  padding-right: 0; }
+
+.dialogue__remark {
+  font-size: 20px;
+  font-style: italic;
+  margin-top: 60px;
+  text-align: right;
+  background: lightgoldenrodyellow;
+  display: inline-block; }
+
+.gallery {
+  margin-top: 100px;
+  height: 500px; }
+  .gallery__title {
+    margin: 0 auto 70px auto;
+    width: 1250px;
+    text-align: center;
+    font-weight: 100;
+    font-style: italic; }
+  .gallery__item {
+    width: 340px; }
+    .gallery__item-img {
+      margin: 0 auto;
+      display: block; }
+    .gallery__item-author {
+      text-transform: uppercase;
+      font-weight: bold;
+      text-align: center;
+      margin-bottom: 10px; }
+    .gallery__item-type {
+      text-align: center;
+      margin-bottom: 10px; }
+    .gallery__item-price {
+      text-align: center; }
